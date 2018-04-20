@@ -1,0 +1,8 @@
+---
+stages:
+  - name: stage1
+    exec:
+      - ls
+  - name: stage2
+    exec:
+      - ls -l
