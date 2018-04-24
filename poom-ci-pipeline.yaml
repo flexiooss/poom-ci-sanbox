@@ -2,7 +2,13 @@
 stages:
   - name: stage1
     exec:
-      - ls
+      - echo "one"
+      - echo "two"
+      - echo "three"
   - name: stage2
-    exec:
-      - ls -l
+      - echo "one"
+      - echo "two"
+      - echo "three"
+      - echo "four"
+      - echo "five"
+      - echo "six"
