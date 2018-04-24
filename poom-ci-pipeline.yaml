@@ -6,6 +6,7 @@ stages:
       - echo "two"
       - echo "three"
   - name: stage2
+    exec:
       - echo "one"
       - echo "two"
       - echo "three"
